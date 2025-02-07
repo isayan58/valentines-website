@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('heart-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 30px;
+    color: #d63384;
+}
+
+/* Main Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Titles & Text */
+h1 {
+    color: #ff3366;
+}
+
+.love-letter {
+    font-style: italic;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.yes {
+    background: #ff3366;
+    color: white;
+}
+
+.no {
+    background: #ccc;
+    color: black;
+    position: absolute;
+}
+
+.yes:hover {
+    background: #d63384;
+}
+
+.no:hover {
+    background: #bbb;
+}
+
+/* Fireworks Effect */
+.hidden {
+    display: none;
+    font-size: 24px;
+    color: #ff3366;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
